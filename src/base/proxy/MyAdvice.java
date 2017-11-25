@@ -8,6 +8,7 @@ public class MyAdvice implements Advice {
     @Override
     public void beforeMethod(Method method){
         System.out.println("执行" + method.getName() + "前");
+        String[] a = new String[]{};//数组测试
     }
     @Override
     public void aftereMethod(Method method){
